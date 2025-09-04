@@ -1,0 +1,39 @@
+Shuaian (Hans) Wang
+
+BSc (Tsinghua University), MSc (Tsinghua University), MSc (RWTH Aachen, Germany), PhD (National University of Singapore)
+
+Professor, Department of Logistics and Maritime Studies, Faculty of Business, The Hong Kong Polytechnic University
+
+Distinguished Visiting Professor, Tsinghua University
+
+Telephone: (852) 2766-7419
+
+Email: wangshuaian@gmail.com
+
+
+
+Prof. Wang is currently Professor at The Hong Kong Polytechnic University (PolyU), Distinguished Visiting Professor at Tsinghua University, Director of PhD Studies of Department of Logistics and Maritime Studies, and Deputy Director of PolyU Maritime Data and Sustainable Development Centre. Prior to joining PolyU, he worked as a faculty member at Old Dominion University, USA, and the University of Wollongong, Australia. Prof. Wang’s research interests include data analytics, big data in shipping,  zero-carbon and green shipping, shipping operations management, port planning and operations, urban transport network modeling, and logistics and supply chain management. Prof. Wang has published over 300 papers in Transportation Research (Part A, B, C, D, and E), Transportation Science, Management Science, and Operations Research. He won INFORMS Computing Society Harvey J. Greenberg Research Award in 2023. Prof. Wang is co-editor-in-chief of Transportation Research Part E, editor-in-chief of Cleaner Logistics Supply Chain, and editor-in-chief of Communications in Transportation Research. Prof. Wang dedicates to rethinking and proposing innovative solutions to improve the efficiency of maritime and urban transportation systems, to promote environmentally friendly and sustainable practices, and to transform business and engineering education.
+
+王帅安，现任香港理工大学工商管理学院教授、清华大学卓越访问教授。本科毕业于清华大学；硕士毕业于清华大学、德国亚琛工业大学；博士毕业于新加坡国立大学。博士毕业后先后在澳大利亚、美国、香港特区高校任教。主要研究领域包括机器学习、数据驱动的优化、港航运作管理、绿色航运、航运大数据。在Transportation Research、Transportation Science、Management Science、Operations Research等期刊发表论文300篇。连续五年被斯坦福大学评为交通物流领域终身科学影响力世界前2%的学者（2020、2021、2022、2023、2024）。担任国际期刊Transportation Research Part E (SCIE/SSCI) 共同主编、Communications in Transportation Research (SCIE/SSCI)、Cleaner Logistics and Supply Chain (ESCI) 创刊主编、Flexible Services and Manufacturing Journal (SCIE) 领域主编、Transportmetrica A (SCIE/SSCI)、 Transportation Letters (SCIE/SSCI) 副主编、Transportation Research Part B (SCIE/SSCI)、Transportation Research Record (SCIE)、Maritime Transport Research (ESCI) 编委。他指导毕业的博士生在清华大学、四川大学、上海大学、香港理工大学、新加坡南洋理工大学等国内外高校任教。
+
+Research project:
+1. AI for PSC at Hong Kong 
+ This project aims to predict the risk of the visiting foreign-flag ships at Hong Kong, evaluated by the number of deficiencies and detention probability in PSC inspection during this visit. More specifically, ships currently berthing at the Port of Hong Kong are constantly downloaded from the website of the Marine Department (MD) of HKSAR, China. Then, more specific ship features, including ship generic features such as ship type, ship dimension, keel laid date, total previous detentions, casualties involved, and flag change times, as well as historical PSC inspection information regarding last inspection time and condition and the ship’s company/RO/flag performance, are searched from relevant databases such as the online public PSC database provided by the Tokyo MoU. Based on the features, ship deficiency number and detention probability in the inspection during this visit are predicted using state-of-the-art artificial intelligence (AI) model. The normalized predicted deficiency number and detention probability are combined in a weighted sum manner (with 60% of the weights given to the normalized predicted deficiency number and 40% of the weights given to the normalized predicted detention probability), which is the final predicted ship risk. Finally, the predicted risk of the ships currently at the Port of Hong Kong, together with their main features, is output to an Excel file. The file includes the ships’ identity, type, flag, name of agent, last port of call, current location, ship risk profile, inspection priority, inspection time window, and the detailed prediction results given by the AI models.
+
+This project is sponsored by the Policy Innovation and Co-ordination Office (PICO) of the Government of the HKSAR (Project number: 2020.A6.148.20A). The research team is led by Professor Shuaian (Hans) Wang from the Department of Logistics and Maritime Studies at The Hong Kong Polytechnic University.
+
+This project improves the current Tokyo MoU practice by identifying 25% more deficiencies and 50% more detentions.  This project was developed to improve the PSC efficiency at the Port of Hong Kong and can also be applied by other PSC authorities in the Tokyo MoU region. 
+
+2. Stackelberg Game for Ship Emission Policy Design
+International, regional, and local maritime regulators around the world have implemented and are planning a number of regulations that aim to curb air emissions from ships, such as carbon dioxide, sulphur oxides, nitrogen oxides, and particulate matter. Ship operators, instead of aiming at reducing emissions, make decisions with the objective of minimizing costs. As a result of cost minimization, ship operators may abide by the emission regulations in a way different from what the regulators anticipated, that is, in a way that generates undesirable side effects or even more emissions. Therefore, when designing emission regulations, maritime regulators must take into account how ship operators will react to the regulations. Our research on applying Stackelberg game-theoretic models to examine this problem is sponsored by the Hong Kong Research Grants Council and the National Natural Science Foundation of China. The main research outputs are as follows.
+
+We systematically examined how liner shipping companies should operate their ships to minimize costs under emission control area (ECA) rules.
+
+We pointed out that the regional regulation of including shipping carbon emissions into the European Union Emissions Trading Scheme may lead to evasive port calls by ships, compromising the effect of the regulation. 
+
+We warned that the domestic ECA of China is inherently different from the ECAs in Europe and North America and that China should not tighten the sulphur limit in its domestic ECA to 0.1% without a very careful study of possible reactions from ships.
+
+3. Drone Scheduling for Monitoring Ship Emissions
+The use of drones to monitor the air emissions of vessels has recently attracted wide attention. We study a drone scheduling problem that determines the sequence of vessels to monitor by each drone. The objective is to design a group of flight tours for drones such that as many vessels as possible can be inspected during a given time period while prioritizing highly weighted vessels for inspection. This problem is different from the well-known Vehicle Routing Problem (VRP) in that the vessels are moving, whose trajectories can be predicted based on ship AIS data. We formulate the problem on a time-expanded network and develop an effective Lagrangian relaxation-based method. We apply the research to ship monitoring in the Pearl River Delta to demonstrate the effectiveness of the proposed method.
+
+This research is sponsored by the Environment and Conservation Fund of the Environmental Protection Department of HKSAR.
