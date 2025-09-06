@@ -1,0 +1,3 @@
+## Biography
+
+Lijun Sun (Senior Member, IEEE) received the B.S. degree in civil engineering from Tsinghua University, Beijing, China, in 2011, and the Ph.D. degree in civil engineering (transportation) from the National University of Singapore in 2015. He is currently an Associate Professor and a William Dawson Scholar with the Department of Civil Engineering, McGill University, Montreal, QC, Canada. His research interests include intelligent transportation systems, machine learning, spatiotemporal modeling, travel behavior, and agent-based simulation. He is an Associate Editor of Transportation Research Part C: Emerging Technologies._(Based on [document published](https://ieeexplore.ieee.org/document/10768194) on 26 November 2024)._
