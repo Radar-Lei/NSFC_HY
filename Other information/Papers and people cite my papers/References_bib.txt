@@ -1,0 +1,16 @@
+Zhang, Q., Ma, Z., Zhang, P., & Jenelius, E. (2025). Mobility knowledge graph: review and its application in public transport. Transportation, 52(3), 1119-1145.
+
+Cats, O. (2024). Identifying human mobility patterns using smart card data. Transport Reviews, 44(1), 213-243.
+
+Wang, X., Jin, J. G., & Sun, L. (2022). Real-time dispatching of operating buses during unplanned disruptions to urban rail transit system. Transportation Research Part C: Emerging Technologies, 139, 103696.
+
+Zhang, H., Dong, H., & Yang, Z. (2025). TSGDiff: Traffic state generative diffusion model using multi-source information fusion. Transportation Research Part C: Emerging Technologies, 174, 105081.
+
+Liu, J. B., Liu, B. R., & Lee, C. C. (2024). Social network analysis of regional transport carbon emissions in China: Based on motif analysis and exponential random graph model. Science of the Total Environment, 954, 176183.
+
+Huang, J., Gao, Y., Cheng, L., & Tang, J. (2025). Subway network expansion, suburbanization, and housing price dynamics in Beijing: A longitudinal study from 2011 to 2021. Cities, 166, 106236.
+
+Si, H., Liang, J., Ke, J., Cheng, L., & De Vos, J. (2024). What limits improper bike-sharing parking most: Penalties or incentives? Findings from an online behavioral experiment. Transportation Research Part F: Traffic Psychology and Behaviour, 107, 133-148.
+
+Rong, H., Chen, Z., Lu, Z., Xu, X. K., Huang, K., & Sheng, V. S. (2025). Pred-ID: Future event prediction based on event type schema mining by graph induction and deduction. Information Fusion, 117, 102819.
+

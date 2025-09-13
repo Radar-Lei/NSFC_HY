@@ -1,0 +1,138 @@
+flowchart TB
+    subgraph main ["主要学术贡献与创新成果"]
+        direction TB
+        
+        subgraph area1 ["🔍 交通大数据智能分析与模式挖掘"]
+            direction TB
+            
+            subgraph bg1 ["研究背景与难点"]
+                direction TB
+                A1["📊 海量异构交通数据"]
+                A2["🎯 维度灾难与语义理解"]
+                A3["⚡ 模式识别精度不足"]
+            end
+            
+            subgraph tech1 ["创新方法与技术突破"]
+                direction TB
+                B1["🧠 时序主题模型算法"]
+                B2["🔗 最小熵率行程链方法"]
+                B3["🌐 多层网络脆弱性评估"]
+            end
+            
+            subgraph value1 ["科研价值"]
+                direction TB
+                C1["🎯 交通规划决策支持"]
+                C2["🚨 异常行为识别"]
+                C3["💡 方法论理论贡献"]
+            end
+            
+            subgraph peer1 ["同行评价"]
+                direction TB
+                D1["👨‍🏫 Oded Cats教授<br/>代尔夫特理工大学"]
+                D2["👨‍🔬 Erik Jenelius教授<br/>瑞典皇家理工学院"]
+                D3["👨‍🎓 Jonas De Vos教授<br/>伦敦大学学院"]
+            end
+        end
+        
+        subgraph area2 ["🤖 深度学习与多模态交通预测"]
+            direction TB
+            
+            subgraph bg2 ["研究背景与难点"]
+                direction TB
+                E1["📡 传感器覆盖不全"]
+                E2["🔄 多源信息异构性"]
+                E3["❓ 预测不确定性"]
+            end
+            
+            subgraph tech2 ["创新方法与技术突破"]
+                direction TB
+                F1["🎲 条件扩散模型框架"]
+                F2["🧬 深度多模态网络架构"]
+                F3["⚖️ 多任务统一框架"]
+            end
+            
+            subgraph value2 ["科研价值"]
+                direction TB
+                G1["🛡️ 不确定性管理"]
+                G2["🔀 多模态信息融合"]
+                G3["🏗️ 概率深度学习拓展"]
+            end
+            
+            subgraph peer2 ["同行评价"]
+                direction TB
+                H1["👨‍💼 Chien-Chiang Lee教授<br/>澳门城市大学"]
+                H2["👨‍🏫 董宏辉教授<br/>北京交通大学"]
+                H3["👨‍🔬 Victor S. Sheng教授"]
+            end
+        end
+        
+        subgraph area3 ["🎯 多模态轨迹预测与信息融合"]
+            direction TB
+            
+            subgraph bg3 ["研究背景与难点"]
+                direction TB
+                I1["🚇 多模式交通接驳"]
+                I2["📈 客流动态变化"]
+                I3["🔍 系统脆弱性评估"]
+            end
+            
+            subgraph tech3 ["创新方法与技术突破"]
+                direction TB
+                J1["📍 到达信息引导框架"]
+                J2["🕸️ 图卷积神经网络"]
+                J3["📊 多期面板数据分析"]
+            end
+            
+            subgraph value3 ["科研价值"]
+                direction TB
+                K1["⏰ 15-30分钟预测窗口"]
+                K2["🏢 枢纽运营优化"]
+                K3["💡 专利技术转化"]
+            end
+            
+            subgraph peer3 ["同行评价"]
+                direction TB
+                L1["👨‍🏫 Tomio Miwa教授<br/>名古屋大学"]
+                L2["👨‍🔬 Lijun Sun教授<br/>麦吉尔大学"]
+                L3["👨‍🎓 汤俊卿教授<br/>北京大学"]
+            end
+        end
+        
+        subgraph projects ["🎯 重要项目支撑"]
+            direction TB
+            M1["🔬 国家自然科学基金重点项目<br/>现代城市多模式公共交通系统"]
+            M2["📋 国家自然科学基金面上项目<br/>集约型公交与共享自行车"]
+            M3["🏗️ 国家自然科学基金面上项目<br/>大型综合客运枢纽衔接网络"]
+        end
+    end
+    
+    bg1 --> tech1
+    tech1 --> value1
+    value1 --> peer1
+    
+    bg2 --> tech2
+    tech2 --> value2
+    value2 --> peer2
+    
+    bg3 --> tech3
+    tech3 --> value3
+    value3 --> peer3
+    
+    area1 --> area2
+    area2 --> area3
+    area3 --> projects
+    
+    style main fill:#f8f9fa,stroke:#666,stroke-width:3px,color:#333
+    style area1 fill:#e8f4fd,stroke:#3498db,stroke-width:2px
+    style area2 fill:#f0f8e8,stroke:#27ae60,stroke-width:2px
+    style area3 fill:#fdf2e9,stroke:#e67e22,stroke-width:2px
+    style projects fill:#f4e6f7,stroke:#9b59b6,stroke-width:2px
+    
+    style bg1,tech1,value1,peer1 fill:#f7fbff,stroke:#5dade2,stroke-width:1px
+    style bg2,tech2,value2,peer2 fill:#f8fcf7,stroke:#58d68d,stroke-width:1px
+    style bg3,tech3,value3,peer3 fill:#fefaf6,stroke:#f39c12,stroke-width:1px
+    
+    style A1,A2,A3,B1,B2,B3,C1,C2,C3,D1,D2,D3 fill:#ecf0f1
+    style E1,E2,E3,F1,F2,F3,G1,G2,G3,H1,H2,H3 fill:#eaecee
+    style I1,I2,I3,J1,J2,J3,K1,K2,K3,L1,L2,L3 fill:#f4f5f5
+    style M1,M2,M3 fill:#f7f8f8
