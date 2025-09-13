@@ -67,7 +67,6 @@ In this part,you shall focus on the innovativeness and scientific value of the r
 
 创新方法与技术突破： 申请人提出了基于到达信息引导的交通枢纽客流时空预测框架, 建立了到达信息与枢纽内部客流分布的动态关联模型。采用深度时空网络架构, 结合图卷积神经网络和时序注意力机制, 有效捕捉枢纽空间的拓扑结构和客流传播的时空依赖性[6]。针对突发事件对交通系统的影响,提出了多期面板数据分析框架和计量经济模型, 量化了外部冲击对出行行为的动态影响 ,为交通系统韧性评估提供了方法论支撑[7]。相关研究为深度学习在交通概率预测领域提供了理论进展。
 
-
 科研价值：研究成果为枢纽运营管理提供15-30分钟的预测窗口,支持安检通道调配、商业设施运营、应急疏散等决策应用, 显著提升了枢纽运营效率和服务质量。基于多期面板数据的分析方法为交通政策制定提供了实证依据, 为应对突发事件的交通系统韧性建设提供了科学支撑, 在多个城市的综合交通枢纽中得到实际应用验证。相关研究为深度学习在交通概率预测领域提供了理论进展, 推动了智能交通系统的发展[8]。相关研究得到了国家自然科学基金面上项目”站城融合下基于活动可达性的大型综合客运枢纽衔接网络优化” (52372301) 的支持, 申请人在项目中发挥了关键技术骨干作用。在知识产权方面, 申请人作为主要发明人获得了”一种地面公交站点客流量的预测方法”(CN202210140020.3)、”一种结合驻站控制的低频公交到站时刻表设置方法” (CN202110907246.7) 等核心专利授权, 这些专利技术已在多个城市的智能公交系统中部署应用, 展现了产业化前景和实用价值
 
 同行评价： 该研究方向在交通系统优化领域获得了高度认可。Tomio Miwa 教授(名古屋大学)评价申请人的研究[6]: "The arrival information-guided spatiotemporal prediction framework provides effective solutions for transportation hub passenger distribution forecasting" ("到达信息引导时空预测框架为交通枢纽客流分布预测提供了有效解决方案”)[9]。Lijun Sun教授(麦吉尔大学,Transportation Research Part C：Emerging Technologies 副主编)在 [15] 中评价申请人的研究[1]: "The multi-period panel data analysis approach offers methodological advances in assessing pandemic impacts on public transport reliance" ("... 多期面板数据分析方法在评估疫情对公共交通依赖性的影响方面提供了方法学进展”)。汤俊卿教授(北京大学 ) 在 [14] 中评价申请人的研究[8]: "... provide recent advances in deep learning for traffic probabilistic prediction, contributing to the theoretical foundation of transport forecasting" ("... 提供了深度学习在交通概率预测方面的最新进展, 为交通预测理论基础做出了贡献")。
