@@ -22,7 +22,7 @@ In this part,you shall focus on the innovativeness and scientific value of the r
 
 在此背景下,申请人长期致力于智慧交通大数据分析与城市计算的前沿研究, 形成了以 “数据驱动、智能赋能、系统优化” 为核心的研究特色。主要研究方向包括智慧交通大数据分析、基于深度学习的多模态信息预测、交通网络系统性能评估以及智慧城市大语言模型应用四大领域。通过将深度学习、信息论 、网络科学等前沿模型与交通工程实际问题深度结合, 在交通数据挖掘、状态预测、系统优化等方面取得了系列创新性成果。
 
-在学术成果方面,申请人已在相关领域国际顶级SCI/SSCI期刊发表论文25 篇,其中以第一作者或通讯作者身份发表论文8篇,累计影响因子超过 70 ,Web of Science总引用次数超过290次。研究成果发表在Transportation Research Part C (3篇)、Transportation Research Part E (1篇)、Information Fusion (1篇)、Transport Reviews (1篇)、Journal of Transport Geography (2篇) 等交通领域顶级期刊, 多篇论文被Transport Reviews主编De Vos Jonas 教授、Journal of Transport Geography主编Witlox Frank教授等国际知名学者引用。
+在学术成果方面,申请人已在相关领域国际顶级SCI/SSCI期刊发表论文25 篇,其中以第一作者或通讯作者身份发表论文8篇，8篇均为中科院1区TOP期刊论文，累计影响因子超过 70 ,Web of Science总引用次数超过290次。研究成果发表在Transportation Research Part C (3篇)、Transportation Research Part E (1篇)、Information Fusion (1篇)、Transport Reviews (1篇)、Journal of Transport Geography (2篇) 等交通领域顶级期刊, 多篇论文被Transport Reviews主编De Vos Jonas 教授、Journal of Transport Geography主编Witlox Frank教授等国际知名学者引用。
 
 在学术服务方面,申请人担任Electronics期刊特刊客座编辑,负责组织智慧交通与人工智能专题。同时担任Transportation Research Part A、 Transportation Research Part C、Transportation Research Part D、 Transportation Research Part E、Journal of Transport Geography等22个交通领域国际顶级期刊的审稿人,累计完成审稿任务100余次,在 Transportation Research Board (TRB) Annual Meeting和World Transport Convention (WTC) 等国际学术会议做汇报。
 
