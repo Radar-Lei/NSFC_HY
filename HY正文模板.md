@@ -30,6 +30,8 @@ In this part,you shall focus on the innovativeness and scientific value of the r
 
 ## 2. 主要学术贡献与创新成果
 
+申请人学术成果形成了以"交通大数据智能分析与模式挖掘"、"基于深度学习的多模态交通信息预测"和"城市计算与交通系统优化"为核心的三大研究方向体系。这些研究方向相互支撑、有机衔接，共同构成了数据-模型双驱动的智慧交通运行服务研究的完整技术链条。下面将分别详细介绍各研究方向的具体学术贡献与创新成果。
+
 ### 2.1 交通大数据智能分析与模式挖掘
 
 研究背景与难点: 随着城市交通系统智能化进程加速，海量多源异构交通数据呈指数级增长，包括智能卡数据、浮动车GPS轨迹、视频监控数据等。这些数据具有高维度、强时序性、空间关联性和语义复杂性等特征。传统统计分析方法在处理此类大数据时面临严峻挑战：一是维度灾难导致计算复杂度急剧上升；二是时序模式挖掘缺乏有效的语义理解机制；三是多源数据融合困难，难以建立统一的出行行为表征框架。特别是在智能卡数据应用中，由于仅记录乘客上车信息而缺乏下车位置，导致OD矩阵估计存在严重的信息缺失问题，单次出行记录占比高达12-42%，传统行程链方法无法有效处理此类数据不完整性问题，严重制约了公共交通系统精准需求分析和运营优化。
@@ -48,7 +50,7 @@ In this part,you shall focus on the innovativeness and scientific value of the r
 
 科研成果与价值：研究成果在理论和应用层面均具有重要价值。理论层面，CDSTE框架首次将条件扩散模型应用于传感器缺失位置的交通状态概率估计，为概率机器学习在交通工程领域的应用开辟了新途径；提出的时空条件概率方案和拓扑约束机制，丰富了不确定性建模的理论体系；DMN架构通过模态内和模态间注意力机制的统一设计，为多模态信息融合提供了新的方法论框架，推动了深度学习在复杂时空数据建模中的理论发展。应用层面，研究成果为不确定性环境下的智能交通管理提供了切实可行的解决方案。CDSTE生成的可靠概率分布预测，使交通管理者能够量化估计变异性，支持灵活鲁棒的信号控制策略优化、拥堵疏导和应急管理决策；在极端天气和突发事件场景下，概率预测提供的置信区间为风险规避型决策提供了科学依据。DMN的多任务预测能力为个性化出行服务、智能导航系统、交通行为分析提供了技术支撑，通过同时预测位置、时间和出行模式，显著提升了出行服务的精准性和用户体验。实践价值体现在多个方面：CDSTE框架在处理传感器网络覆盖不全的实际交通系统中，将未监测位置的预测精度提升25-40%，为城市级交通状态监控提供了经济有效的技术方案；DMN模型在共享出行、网约车平台等应用中，通过多模态信息融合将轨迹预测准确性提升60-70%，为智能交通系统的实时决策提供了可靠的技术基础。这些创新方法为处理复杂交通场景中的不确定性问题提供了系统性的解决方案，推动了人工智能技术与交通工程的深度融合。相关研究得到了国家自然科学基金面上项目"供需信息交互下集约型公交与共享自行车出行选择机理及资源协同配置" (52172316) 的支持，申请人在项目中负责核心算法设计、模型构建和实验验证工作，主导了条件扩散模型和多模态网络架构的技术创新与实现。
 
-同行评价： 该研究方向在人工智能与交通工程交叉领域产生了重要影响。 Chien-Chiang Lee教授(澳门城市大学)及董宏辉教授(北京交通大学,)在[12] 中评价申请人的研究[4]: "The conditional diffusion model framework by Lei et al. (2024) presents an advanced approach for probabilistic estimation of traffic states at sensor-free locations, contributing to the field of intelligent transportation systems" ("Lei et al. (2024) 提出的条件扩散模型框架为传感器缺失位置的交通状态概率估计提供了先进方法, 对智能交通系统领域做出了贡献 ")。Victor S. Sheng教授在[13] 中指出申请人的研究[5]: "Lei et al. (2025) develop a deep multimodal network for multitask trajectory prediction, demonstrating effective integration of multimodal information in complex traffic scenarios" ("Lei et al. (2025)提出了用于多任务轨迹预测的深度多模态网络模型,展示了在复杂交通场景中多模态信息的有效整合”)。
+同行评价： 该研究方向在人工智能与交通工程交叉领域产生了重要影响。Chien-Chiang Lee教授(澳门城市大学，Journal of Business & Financial Affairs主编)及董宏辉教授(北京交通大学，交通智能系统与安全系主任，IEEE会员)在[12]中评价申请人的研究[4]: "The conditional diffusion model framework by Lei et al. (2024) presents an advanced approach for probabilistic estimation of traffic states at sensor-free locations, contributing to the field of intelligent transportation systems" ("Lei et al. (2024)提出的条件扩散模型框架为传感器缺失位置的交通状态概率估计提供了先进方法,对智能交通系统领域做出了贡献")。Victor S. Sheng教授（德州理工大学，IEEE高级会员，ACM终身会员）在[13]中指出申请人的研究[5]: "Lei et al. (2025) develop a deep multimodal network for multitask trajectory prediction, demonstrating effective integration of multimodal information in complex traffic scenarios" ("Lei et al. (2025)提出了用于多任务轨迹预测的深度多模态网络模型, 展示了在复杂交通场景中多模态信息的有效整合")。
 
 ### 2.3 城市计算与交通系统优化
 
@@ -58,8 +60,7 @@ In this part,you shall focus on the innovativeness and scientific value of the r
 
 科研成果与价值：研究成果为枢纽运营管理提供15-30分钟的预测窗口,支持安检通道调配、商业设施运营、应急疏散等决策应用,显著提升了枢纽运营效率和服务质量。基于多期面板数据的分析方法为交通政策制定提供了实证依据, 为应对突发事件的交通系统韧性建设提供了科学支撑, 在多个城市的综合交通枢纽中得到实际应用验证。相关研究为深度学习在交通概率预测领域提供了理论进展,推动了智能交通系统的发展[8]。相关研究得到了国家自然科学基金面上项目"站城融合下基于活动可达性的大型综合客运枢纽衔接网络优化"(52372301)的支持, 申请人在项目中发挥了关键技术骨干作用。在知识产权方面,申请人作为主要发明人获得了"一种地面公交站点客流量的预测方法"( CN202210140020.3)、"一种结合驻站控制的低频公交到站时刻表设置方法"(CN202110907246.7)等核心专利授权,这些专利技术已在多个城市的智能公交系统中部署应用, 展现了产业化前景和实用价值
 
-同行评价： 该研究方向在交通系统优化领域获得了高度认可。Tomio Miwa教授(名古屋大学)评价申请人的研究[6]: "The arrival information-guided spatiotemporal prediction framework provides effective solutions for transportation hub passenger distribution forecasting" ("到达信息引导时空预测框架为交通枢纽客流分布预测提供了有效解决方案")[9]。Lijun Sun教授(麦吉尔大学，Transportation Research Part C: Emerging Technologies 副主编)在[15]中评价申请人的研究[1]: "The multi-period panel data analysis approach offers methodological advances in assessing pandemic impacts on public transport reliance" ("...多期面板数据分析方法在评估疫情对公共交通依赖性的影响方面提供了方法学进展")。汤俊卿教授(北京大学)在[14]中评价申请人的研究[8]: "... provide recent advances in deep learning for traffic probabilistic prediction, contributing to the theoretical foundation of transport forecasting" ("...提供了深度学习在交通概率预测方面的最新进展,为交通预测理论基础做出了贡献")。
-
+同行评价： 该研究方向在交通系统优化领域获得了高度认可。Tomio Miwa教授(名古屋大学，可持续性材料与系统研究所所长)评价申请人的研究[6]: "The arrival information-guided spatiotemporal prediction framework provides effective solutions for transportation hub passenger distribution forecasting" ("到达信息引导时空预测框架为交通枢纽客流分布预测提供了有效解决方案")[9]。Lijun Sun教授(麦吉尔大学，Transportation Research Part C: Emerging Technologies 副主编)在[15]中评价申请人的研究[1]: "The multi-period panel data analysis approach offers methodological advances in assessing pandemic impacts on public transport reliance" ("...多期面板数据分析方法在评估疫情对公共交通依赖性的影响方面提供了方法学进展")。汤俊卿教授(北京大学，城市规划与设计学院副院长)在[14]中评价申请人的研究[8]: "... provide recent advances in deep learning for traffic probabilistic prediction, contributing to the theoretical foundation of transport forecasting" ("...提供了深度学习在交通概率预测方面的最新进展,为交通预测理论基础做出了贡献")。
 ## 参考文献:
 
 [1] Lei, D., Chen, X.*, Cheng, L., Zhang, L., Witlox, F., 2020. Inferring temporal motifs for travel pattern analysis using large scale smart card data. Transportation Research Part C: Emerging Technologies, 120, p.102810. (IF=7.6, JCR Q1, 中科院 TOP, WOS 引用次数 45 次)

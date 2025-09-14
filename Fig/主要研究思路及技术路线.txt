@@ -1,0 +1,50 @@
+graph LR
+%%{init:{'flowchart':{'nodeSpacing': 15, 'rankSpacing': 20}}}%%
+    A["<b>数据-模型双驱动的</b><br><b>智慧城市交通计算与系统优化研究</b>"]
+    
+    A ---> B["<b>第一层次</b><br>大模型赋能的交通行为智能建模<br>与多模态感知计算"]
+    A ---> C["<b>第二层次</b><br>大模型与强化学习融合的<br>智能交通系统优化与控制"]
+    A ---> D["<b>第三层次</b><br>面向城市级交通数字孪生的<br>智能计算平台构建与协同优化"]
+    
+    B ---> B1["交通场景语义解析<br><b>LLMs + 知识表示</b>"]
+    B ---> B2["混合仿真架构<br><b>领域生成器 + 大模型</b>"]
+    B ---> B3["多模态信息融合<br><b>注意力机制 + 知识图谱</b>"]
+    
+    C ---> C1["大模型赋能强化学习<br><b>状态表示 + 奖励设计</b>"]
+    C ---> C2["交通状态编码<br><b>图神经网络 + 注意力机制</b>"]
+    C ---> C3["多目标优化算法<br><b>效率 + 安全 + 环境</b>"]
+    
+    D ---> D1["扩散模型态势重构<br><b>不确定性量化</b>"]
+    D ---> D2["跨尺度建模框架<br><b>微观-中观-宏观</b>"]
+    D ---> D3["智能推理机制<br><b>知识图谱 + 事件诊断</b>"]
+    
+    B1 ---> E["<b>智能交通系统</b>"]
+    B2 ---> E
+    B3 ---> E
+    C1 ---> E
+    C2 ---> E
+    C3 ---> E
+    D1 ---> E
+    D2 ---> E
+    D3 ---> E
+    
+    E ---> F["<b>理论创新</b>"]
+    E ---> G["<b>技术突破</b>"]
+    E ---> H["<b>平台构建</b>"]
+    E ---> I["<b>应用示范</b>"]
+    
+    %% 紧凑布局设置
+    linkStyle default stroke-width:1px
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px
+    classDef level1 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px
+    classDef level2 fill:#E3F2FD,stroke:#1976D2,stroke-width:1.5px
+    classDef level3 fill:#E8F5E8,stroke:#388E3C,stroke-width:1.5px
+    classDef level4 fill:#FFF3E0,stroke:#F57C00,stroke-width:1.5px
+    classDef level5 fill:#FFEBEE,stroke:#D32F2F,stroke-width:1.5px
+    
+    class A level1
+    class B,C,D level2
+    class B1,B2,B3 level3
+    class C1,C2,C3 level4
+    class D1,D2,D3 level5
+    class E,F,G,H,I level1
