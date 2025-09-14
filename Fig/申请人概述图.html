@@ -7,90 +7,89 @@ var _lucidereact = require('lucide-react');
 
 function ApplicantOverviewPPT() {
   return (
-    _react2.default.createElement('div', { className: "w-full h-screen bg-gradient-to-br from-gray-50 to-blue-50 p-6 overflow-hidden"      ,}
+    _react2.default.createElement('div', { className: "w-full bg-gradient-to-br from-gray-50 to-blue-50 p-4"      ,}
       /* 标题区域 */
       , _react2.default.createElement('div', { className: "text-center mb-6" ,}
-        , _react2.default.createElement('h1', { className: "text-4xl font-bold text-gray-800 mb-2"   ,}, "申请人概述")
+        , _react2.default.createElement('h1', { className: "text-3xl font-bold text-gray-800 mb-2"   ,}, "申请人概述")
         , _react2.default.createElement('div', { className: "w-32 h-1 bg-blue-600 mx-auto rounded-full mb-3"     ,})
-        , _react2.default.createElement('p', { className: "text-xl text-blue-700 font-medium"  ,}, "数据-模型双驱动智慧交通运行服务研究")
       )
 
       /* 核心统计数据横条 */
       , _react2.default.createElement('div', { className: "grid grid-cols-5 gap-4 mb-6"   ,}
         , _react2.default.createElement('div', { className: "text-center bg-white rounded-lg p-4 shadow-md border-l-4 border-blue-500"      ,}
-          , _react2.default.createElement('div', { className: "text-3xl font-bold text-blue-600"  ,}, "25")
+          , _react2.default.createElement('div', { className: "text-2xl font-bold text-blue-600"  ,}, "25")
           , _react2.default.createElement('div', { className: "text-sm text-gray-600 font-medium"  ,}, "SCI/SSCI论文")
         )
         , _react2.default.createElement('div', { className: "text-center bg-white rounded-lg p-4 shadow-md border-l-4 border-green-500"      ,}
-          , _react2.default.createElement('div', { className: "text-3xl font-bold text-green-600"  ,}, "8")
+          , _react2.default.createElement('div', { className: "text-2xl font-bold text-green-600"  ,}, "8")
           , _react2.default.createElement('div', { className: "text-sm text-gray-600 font-medium"  ,}, "第一/通讯作者")
         )
         , _react2.default.createElement('div', { className: "text-center bg-white rounded-lg p-4 shadow-md border-l-4 border-orange-500"      ,}
-          , _react2.default.createElement('div', { className: "text-3xl font-bold text-orange-600"  ,}, "70+")
+          , _react2.default.createElement('div', { className: "text-2xl font-bold text-orange-600"  ,}, "70+")
           , _react2.default.createElement('div', { className: "text-sm text-gray-600 font-medium"  ,}, "累计影响因子")
         )
         , _react2.default.createElement('div', { className: "text-center bg-white rounded-lg p-4 shadow-md border-l-4 border-purple-500"      ,}
-          , _react2.default.createElement('div', { className: "text-3xl font-bold text-purple-600"  ,}, "500+")
+          , _react2.default.createElement('div', { className: "text-2xl font-bold text-purple-600"  ,}, "500+")
           , _react2.default.createElement('div', { className: "text-sm text-gray-600 font-medium"  ,}, "谷歌学术引用")
         )
         , _react2.default.createElement('div', { className: "text-center bg-white rounded-lg p-4 shadow-md border-l-4 border-red-500"      ,}
-          , _react2.default.createElement('div', { className: "text-3xl font-bold text-red-600"  ,}, "100+")
+          , _react2.default.createElement('div', { className: "text-2xl font-bold text-red-600"  ,}, "100+")
           , _react2.default.createElement('div', { className: "text-sm text-gray-600 font-medium"  ,}, "审稿任务")
         )
       )
 
       /* 主体内容 - 左右两大块布局 */
-      , _react2.default.createElement('div', { className: "grid grid-cols-5 gap-6 h-3/5"   ,}
+      , _react2.default.createElement('div', { className: "grid grid-cols-5 gap-4"   ,}
 
         /* 左侧：教育背景与研究方向 (2列宽度) */
-        , _react2.default.createElement('div', { className: "col-span-2 space-y-4" ,}
+        , _react2.default.createElement('div', { className: "col-span-2 space-y-4 flex flex-col" ,}
           /* 教育背景 */
-          , _react2.default.createElement('div', { className: "bg-white rounded-lg p-5 shadow-lg border border-gray-200 h-1/2"      ,}
+          , _react2.default.createElement('div', { className: "bg-white rounded-lg p-4 shadow-lg border border-gray-200 flex-1"      ,}
             , _react2.default.createElement('div', { className: "flex items-center mb-4"  ,}
               , _react2.default.createElement(_lucidereact.GraduationCap, { className: "w-6 h-6 text-blue-600 mr-3"   ,} )
-              , _react2.default.createElement('h3', { className: "text-xl font-bold text-gray-800"  ,}, "教育背景")
+              , _react2.default.createElement('h3', { className: "text-lg font-bold text-gray-800"  ,}, "教育背景")
             )
             , _react2.default.createElement('div', { className: "space-y-3",}
-              , _react2.default.createElement('div', { className: "flex items-center justify-between bg-gradient-to-r from-blue-50 to-blue-100 p-3 rounded-lg"       ,}
+              , _react2.default.createElement('div', { className: "flex items-center justify-between bg-gradient-to-r from-blue-50 to-blue-100 p-2 rounded-lg"       ,}
                 , _react2.default.createElement('div', null
-                  , _react2.default.createElement('div', { className: "font-semibold text-blue-800" ,}, "哈尔滨工业大学")
-                  , _react2.default.createElement('div', { className: "text-sm text-blue-600" ,}, "985/211重点建设高校")
+                  , _react2.default.createElement('div', { className: "font-semibold text-blue-800 text-sm" ,}, "哈尔滨工业大学")
+                  , _react2.default.createElement('div', { className: "text-xs text-blue-600" ,}, "985/211重点建设高校")
                 )
-                , _react2.default.createElement('div', { className: "text-sm font-medium text-blue-700 bg-blue-200 px-2 py-1 rounded"      ,}, "本科")
+                , _react2.default.createElement('div', { className: "text-xs font-medium text-blue-700 bg-blue-200 px-2 py-1 rounded"      ,}, "本科")
               )
-              , _react2.default.createElement('div', { className: "flex items-center justify-between bg-gradient-to-r from-green-50 to-green-100 p-3 rounded-lg"       ,}
+              , _react2.default.createElement('div', { className: "flex items-center justify-between bg-gradient-to-r from-green-50 to-green-100 p-2 rounded-lg"       ,}
                 , _react2.default.createElement('div', null
-                  , _react2.default.createElement('div', { className: "font-semibold text-green-800" ,}, "东南大学")
-                  , _react2.default.createElement('div', { className: "text-sm text-green-600" ,}, "双一流A类，交通运输工程全国第一")
+                  , _react2.default.createElement('div', { className: "font-semibold text-green-800 text-sm" ,}, "东南大学")
+                  , _react2.default.createElement('div', { className: "text-xs text-green-600" ,}, "双一流A类，交通运输工程全国第一")
                 )
-                , _react2.default.createElement('div', { className: "text-sm font-medium text-green-700 bg-green-200 px-2 py-1 rounded"      ,}, "博士")
+                , _react2.default.createElement('div', { className: "text-xs font-medium text-green-700 bg-green-200 px-2 py-1 rounded"      ,}, "博士")
               )
-              , _react2.default.createElement('div', { className: "flex items-center justify-between bg-gradient-to-r from-purple-50 to-purple-100 p-3 rounded-lg"       ,}
+              , _react2.default.createElement('div', { className: "flex items-center justify-between bg-gradient-to-r from-purple-50 to-purple-100 p-2 rounded-lg"       ,}
                 , _react2.default.createElement('div', null
-                  , _react2.default.createElement('div', { className: "font-semibold text-purple-800" ,}, "美国普渡大学")
-                  , _react2.default.createElement('div', { className: "text-sm text-purple-600" ,}, "国际化联合培养")
+                  , _react2.default.createElement('div', { className: "font-semibold text-purple-800 text-sm" ,}, "美国普渡大学")
+                  , _react2.default.createElement('div', { className: "text-xs text-purple-600" ,}, "国际化联合培养")
                 )
-                , _react2.default.createElement('div', { className: "text-sm font-medium text-purple-700 bg-purple-200 px-2 py-1 rounded"      ,}, "联培")
+                , _react2.default.createElement('div', { className: "text-xs font-medium text-purple-700 bg-purple-200 px-2 py-1 rounded"      ,}, "联培")
               )
-              , _react2.default.createElement('div', { className: "flex items-center justify-between bg-gradient-to-r from-orange-50 to-orange-100 p-3 rounded-lg"       ,}
+              , _react2.default.createElement('div', { className: "flex items-center justify-between bg-gradient-to-r from-orange-50 to-orange-100 p-2 rounded-lg"       ,}
                 , _react2.default.createElement('div', null
-                  , _react2.default.createElement('div', { className: "font-semibold text-orange-800" ,}, "香港理工大学")
-                  , _react2.default.createElement('div', { className: "text-sm text-orange-600" ,}, "QS世界排名第57位")
+                  , _react2.default.createElement('div', { className: "font-semibold text-orange-800 text-sm" ,}, "香港理工大学")
+                  , _react2.default.createElement('div', { className: "text-xs text-orange-600" ,}, "QS世界排名第57位")
                 )
-                , _react2.default.createElement('div', { className: "text-sm font-medium text-orange-700 bg-orange-200 px-2 py-1 rounded"      ,}, "博士后")
+                , _react2.default.createElement('div', { className: "text-xs font-medium text-orange-700 bg-orange-200 px-2 py-1 rounded"      ,}, "博士后")
               )
-              , _react2.default.createElement('div', { className: "flex items-center justify-between bg-gradient-to-r from-red-50 to-red-100 p-3 rounded-lg border-2 border-red-300"         ,}
+              , _react2.default.createElement('div', { className: "flex items-center justify-between bg-gradient-to-r from-red-50 to-red-100 p-2 rounded-lg border-2 border-red-300"         ,}
                 , _react2.default.createElement('div', null
-                  , _react2.default.createElement('div', { className: "font-bold text-red-800" ,}, "香港中文大学")
-                  , _react2.default.createElement('div', { className: "text-sm text-red-600" ,}, "当前职位")
+                  , _react2.default.createElement('div', { className: "font-bold text-red-800 text-sm" ,}, "香港中文大学")
+                  , _react2.default.createElement('div', { className: "text-xs text-red-600" ,}, "当前职位")
                 )
-                , _react2.default.createElement('div', { className: "text-sm font-bold text-red-700 bg-red-200 px-3 py-1 rounded"      ,}, "副研究员")
+                , _react2.default.createElement('div', { className: "text-xs font-bold text-red-700 bg-red-200 px-2 py-1 rounded"      ,}, "副研究员")
               )
             )
           )
 
           /* 研究方向 */
-          , _react2.default.createElement('div', { className: "bg-white rounded-lg p-5 shadow-lg border border-gray-200 h-1/2"      ,}
+          , _react2.default.createElement('div', { className: "bg-white rounded-lg p-5 shadow-lg border border-gray-200 flex-1"      ,}
             , _react2.default.createElement('div', { className: "flex items-center mb-4"  ,}
               , _react2.default.createElement(_lucidereact.Target, { className: "w-6 h-6 text-green-600 mr-3"   ,} )
               , _react2.default.createElement('h3', { className: "text-xl font-bold text-gray-800"  ,}, "核心研究方向")
@@ -113,16 +112,16 @@ function ApplicantOverviewPPT() {
         )
 
         /* 右侧：成果与项目 (3列宽度) */
-        , _react2.default.createElement('div', { className: "col-span-3 space-y-4" ,}
+        , _react2.default.createElement('div', { className: "col-span-3 space-y-4 flex flex-col" ,}
           /* 顶级期刊发表 */
-          , _react2.default.createElement('div', { className: "bg-white rounded-lg p-5 shadow-lg border border-gray-200"     ,}
+          , _react2.default.createElement('div', { className: "bg-white rounded-lg p-5 shadow-lg border border-gray-200 flex-1"     ,}
             , _react2.default.createElement('div', { className: "flex items-center mb-4"  ,}
               , _react2.default.createElement(_lucidereact.FileText, { className: "w-6 h-6 text-orange-600 mr-3"   ,} )
               , _react2.default.createElement('h3', { className: "text-xl font-bold text-gray-800"  ,}, "顶级期刊发表成果")
             )
             , _react2.default.createElement('div', { className: "grid grid-cols-3 gap-3"  ,}
               , _react2.default.createElement('div', { className: "bg-gradient-to-br from-orange-100 to-red-100 p-3 rounded-lg text-center border border-orange-200"       ,}
-                , _react2.default.createElement('div', { className: "font-bold text-orange-800" ,}, "Transportation Research Part C"   )
+                , _react2.default.createElement('div', { className: "font-bold text-orange-800 whitespace-nowrap" ,}, "Transportation Research Part C")
                 , _react2.default.createElement('div', { className: "text-2xl font-bold text-orange-600 my-1"   ,}, "3篇")
                 , _react2.default.createElement('div', { className: "text-xs text-orange-600" ,}, "IF=7.6, 中科院TOP" )
               )
@@ -137,14 +136,14 @@ function ApplicantOverviewPPT() {
                 , _react2.default.createElement('div', { className: "text-xs text-green-600" ,}, "IF=9.5, 中科院TOP" )
               )
               , _react2.default.createElement('div', { className: "bg-gradient-to-br from-purple-100 to-pink-100 p-3 rounded-lg text-center border border-purple-200"       ,}
-                , _react2.default.createElement('div', { className: "font-bold text-purple-800" ,}, "Transportation Research Part E"   )
+                , _react2.default.createElement('div', { className: "font-bold text-purple-800 whitespace-nowrap" ,}, "Transportation Research Part E")
                 , _react2.default.createElement('div', { className: "text-2xl font-bold text-purple-600 my-1"   ,}, "1篇")
                 , _react2.default.createElement('div', { className: "text-xs text-purple-600" ,}, "IF=8.3, 中科院TOP" )
               )
               , _react2.default.createElement('div', { class: "bg-gradient-to-br from-yellow-100 to-amber-100 p-3 rounded-lg text-center border border-yellow-200"       ,}
                 , _react2.default.createElement('div', { className: "font-bold text-yellow-800" ,}, "Journal of Transport Geography"   )
                 , _react2.default.createElement('div', { className: "text-2xl font-bold text-yellow-600 my-1"   ,}, "2篇")
-                , _react2.default.createElement('div', { className: "text-xs text-yellow-600" ,}, "含ESI高被引论文")
+                , _react2.default.createElement('div', { className: "text-xs text-yellow-600 font-bold" ,}, "含ESI高被引论文")
               )
               , _react2.default.createElement('div', { className: "bg-gradient-to-br from-gray-100 to-slate-100 p-3 rounded-lg text-center border border-gray-300"       ,}
                 , _react2.default.createElement('div', { className: "font-bold text-gray-800" ,}, "全部均为")
@@ -155,7 +154,7 @@ function ApplicantOverviewPPT() {
           )
 
           /* 下半部分：项目与服务 */
-          , _react2.default.createElement('div', { className: "grid grid-cols-2 gap-4"  ,}
+          , _react2.default.createElement('div', { className: "grid grid-cols-2 gap-4 flex-1"  ,}
             /* 重大科研项目 */
             , _react2.default.createElement('div', { className: "bg-white rounded-lg p-4 shadow-lg border border-gray-200"     ,}
               , _react2.default.createElement('div', { className: "flex items-center mb-3"  ,}
@@ -199,7 +198,7 @@ function ApplicantOverviewPPT() {
                 , _react2.default.createElement('div', { className: "bg-green-50 p-3 rounded border border-green-200"    ,}
                   , _react2.default.createElement('div', { className: "flex items-center mb-2"  ,}
                     , _react2.default.createElement(_lucidereact.Globe, { className: "w-4 h-4 text-green-600 mr-2"   ,} )
-                    , _react2.default.createElement('span', { className: "font-semibold text-green-800" ,}, "22个国际顶级期刊审稿人")
+                    , _react2.default.createElement('span', { className: "font-semibold text-green-800" ,}, "29个国际顶级期刊审稿人")
                   )
                   , _react2.default.createElement('div', { className: "text-sm text-green-600" ,}, "TRC、TRE、TRD等顶级期刊")
                 )
@@ -213,7 +212,7 @@ function ApplicantOverviewPPT() {
                 , _react2.default.createElement('div', { className: "bg-yellow-50 p-3 rounded border border-yellow-200"    ,}
                   , _react2.default.createElement('div', { className: "flex items-center mb-2"  ,}
                     , _react2.default.createElement(_lucidereact.Building, { className: "w-4 h-4 text-yellow-600 mr-2"   ,} )
-                    , _react2.default.createElement('span', { className: "font-semibold text-yellow-800" ,}, "导师：王帅安教授")
+                    , _react2.default.createElement('span', { className: "font-semibold text-yellow-800" ,}, "博士后合作导师：王帅安教授")
                   )
                   , _react2.default.createElement('div', { className: "text-sm text-yellow-600" ,}, "斯坦福评选世界前2%学者")
                 )
